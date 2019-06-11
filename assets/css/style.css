@@ -1,0 +1,46 @@
+body {
+    background-image: url("http://www.seekgif.com/download/pics-photos-question-marks-background-5023");
+}
+
+.jumbotron {
+    background-image: url("https://www.ignitesocialmedia.com/wp-content/uploads/2018/02/YpJilaXXT8qJR6HQVKFM_ISM_Trivia.gif");
+    width: 0 auto;
+    height: 600px;
+    padding: 30px;
+}
+
+#after_submit {
+    visibility: hidden;
+}
+
+.container {
+    background-color: azure;
+}
+
+#timer {
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    padding-left: 500px;
+    z-index: 1;
+}
+
+#button {
+    background-color: pink;
+    border-color: pink;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#reset {
+    background-color: pink;
+    border-color: pink;
+    font-weight: bold;
+}
+
+#number_correct {
+    font-weight: bold;
+    z-index: 1;
+    font-size: 35px;
+    padding-left: 500px;
+}

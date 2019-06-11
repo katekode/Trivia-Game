@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TriviaGame</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+
+
+
+
+
+    </div>
+
+
+
+    <br>
+    <div class="container">
+        <form id="quiz" name="quiz">
+
+            <div class="timer">
+                <span id="timer">
+                     <span id="time">60</span> Seconds
+                </span>
+            </div>
+
+            <p>"According to Greek mythology, who was the first woman on earth?"</p>
+            <input type="radio" id="mc" name="question1" value="Medusa"> Medusa<br>
+            <input type="radio" id="mc" name="question1" value="Electra"> Electra<br>
+            <input type="radio" id="mc" name="question1" value="Cleopatra"> Cleopatra<br>
+            <input type="radio" id="mc" name="question1" value="Pandora"> Pandora<br>
+            <br>
+            <p>"Which country became the first in the world to have a female Prime Minister?"</p>
+            <input type="radio" id="mc" name="question2" value="United Kingdom(1979)"> United Kingdom(1979)<br>
+            <input type="radio" id="mc" name="question2" value="Isreal(1969)"> Isreal(1969)<br>
+            <input type="radio" id="mc" name="question2" value="Sri Lanka(1960)"> Sri Lanka(1960)<br>
+            <input type="radio" id="mc" name="question2" value="Portugal(1979)"> Portugal(1979)<br>
+
+            <br>
+            <p>"Rain contains which vitamin?"</p>
+            <input type="radio" id="mc" name="question3" value="Vitamin B12"> Vitamin B12<br>
+            <input type="radio" id="mc" name="question3" value="Calcium"> Calcium<br>
+            <input type="radio" id="mc" name="question3" value="Zinc"> Zinc<br>
+            <input type="radio" id="mc" name="question3" value="Vitamin D"> Vitamin D<br>
+            <br>
+            <p>"Which flower can help in cleaning radioactive waste??"</p>
+            <input type="radio" id="mc" name="question4" value="Roses"> Roses<br>
+            <input type="radio" id="mc" name="question4" value="Lillies"> Lillies<br>
+            <input type="radio" id="mc" name="question4" value="Sunflowers"> Sunflowers<br>
+            <input type="radio" id="mc" name="question4" value="Daisies"> Daisies<br>
+            <br>
+
+            <input id="button" type="button" value="Submit!" onclick="check();">
+
+            <button id="reset" onclick="check()">Reset</button>
+
+            <div id="after_submit">
+                <p id="number_correct"></p>
+            </div>
+
+
+
+        </form>
+    </div>
+    <br>
+
+
+
+</body>
+
+</html>
