@@ -5,7 +5,7 @@ body {
 .jumbotron {
     background-image: url("https://www.ignitesocialmedia.com/wp-content/uploads/2018/02/YpJilaXXT8qJR6HQVKFM_ISM_Trivia.gif");
     width: 0 auto;
-    height: 600px;
+    height: 670px;
     padding: 30px;
 }
 
@@ -43,4 +43,13 @@ body {
     z-index: 1;
     font-size: 35px;
     padding-left: 500px;
+}
+
+.glyphicon {
+    color: white;
+}
+
+a.btn-primary {
+    background-color: black;
+    border: 0px;
 }
